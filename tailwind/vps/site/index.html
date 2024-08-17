@@ -7,11 +7,548 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="topbar"></div>
-        <div class="header"></div>
-        <div class="page"></div>
-        <div class="footer"></div>
+    <div class="wrapper z-10 relative">
+        <div class="header absolute left-0 right-0">
+            <div class="topbar bg-c1 text-white py-2">
+                <div class="container mx-auto flex justify-between ">
+                    <div class="flex justify-center items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                          </svg>
+                          
+                        <span>info@pakitadmins.com</span>
+                    </div>
+                    <div class="lg:flex justify-center items-center gap-2 hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
+                          </svg>
+                          
+                        <span>Hosting Flash Sale: Starting at $2.59/mo for a limited time</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <div>
+                            <span>Live Chat</span>
+                        </div>
+                        <div>
+                            <span>Login</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="nav text-white  left-0 right-0 py-4 ">
+                <div class="container mx-auto flex justify-between">
+                    <div>
+                        <a href="javascript:void(0)" class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                              </svg>
+                            <h2 class="font-semibold">VPS</h2>
+                        </a>
+                    </div>
+                    <div class="hidden lg:block">
+                        <ul class="flex gap-2">
+                            <li><a href="" class="whitespace-nowrap font-semibold">Home</a></li>
+                            <li><a href="" class="whitespace-nowrap font-semibold">Hosting</a></li>
+                            <li><a href="" class="whitespace-nowrap font-semibold">Help Center</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="javascript:void(0)" class="whitespace-nowrap font-semibold">Client Area</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="hero bg-c2 py-16 pt-40">
+                <div class="container mx-auto flex-col lg:flex-row lg:gap-0 gap-10 lg:items-start flex items-center justify-between">
+                    <div class="flex flex-col gap-y-5">
+                        <div class="max-w-[400px] flex flex-col gap-5">
+                            <div>
+                                <span class="text-sm bold text-white bg-c1 px-2 py-1 rounded-md inline-block">Managed VPS Hosting</span>
+                            </div>
+                            <div>
+                                <h3 class="text-5xl  text-white font-bold">Virtual Private Servers</h3>
+                            </div>
+                            <div>
+                                <h3 class="text-md tracking-wider text-white font-bold">Expect More From Your Website or App.</h3>
+                            </div>
+                        </div>
+                        <div class="flex justify-start items-center gap-x-10 gap-y-5">
+                            <a href="javascript:void(0)" class="bg-c3 text-c4 py-3 px-8 inline-block font-bold rounded-xl text-xl">Buy VPS</a>
+                            <a href="javascript:void(0)" class="text-white font-bold text-xl relative before:absolute before:content-[''] before:w-full before:h-[3px] before:bg-white before:left-0 before:-bottom-[5px]">Starting @ $10.00/mo</a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="./images/banner__vps__image-sm1.svg" class="absolute  top-0 left-7 w-52 animate-mttb z-[8]">
+                        <img src="./images/banner__vps__image.svg" class="relative z-[9]">
+                    </div>
+                </div>
+            </div>
+            <div class="section py-20  bg-cbg">
+                <div class="title flex flex-col items-center gap-3">
+                    <h1 class="text-c5 text-3xl font-bold ">Choose Hosting Plan</h1>
+                    <p class="text-c5 text-sm font-semibold ">Globally incubate next-generation e-services via state of the art technology.</p>
+                </div>
+                <div class="content mt-10">
+                    <div class="plans flex-wrap flex justify-center lg:px-0 px-5 gap-4">
+                        <div class="plan px-10 py-10  w-80 border rounded-xl border-c2">
+                            <div class="flex flex-col gap-4 justify-center items-center">
+                                <div class="flex gap-4 justify-center items-center">
+                                    <img src="./images/plans/kt7incj5grlrx3qlp6.svg">
+                                    <span>Basic Plan</span>
+                                </div>
+                                <p>Everything need to your website</p>
+                                <div class="flex gap-4">
+                                    <span>US$6.53</span>
+                                    <span class="bg-cbg">Save 60%</span>
+                                </div>
+                                <div class="flex">
+                                    <sup>US$</sup>
+                                    <span>11.19</span>
+                                    <span>Save 60%</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 w-full justify-center ">
+                                    <button class="bg-c2 py-2 text-white font-semibold w-full rounded-xl">Add To Cart</button>
+                                    <p>$ 6.99 /mo when you renew</p>
+                                </div>
+                                <div class="flex flex-col w-full gap-5">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7 Real-time Monitoring</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Regular Security Patching</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Object Cache Pro</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Domain ($9.99 value)</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Staging Environment</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7/365 Support</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Email</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Unlimited Bandwidth</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan px-10 py-10  w-80 border rounded-xl border-c2">
+                            <div class="flex flex-col gap-4 justify-center items-center">
+                                <div class="flex gap-4 justify-center items-center">
+                                    <img src="./images/plans/kt7incj5grlrx3qlp6.svg">
+                                    <span>Basic Plan</span>
+                                </div>
+                                <p>Everything need to your website</p>
+                                <div class="flex gap-4">
+                                    <span>US$6.53</span>
+                                    <span class="bg-cbg">Save 60%</span>
+                                </div>
+                                <div class="flex">
+                                    <sup>US$</sup>
+                                    <span>11.19</span>
+                                    <span>Save 60%</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 w-full justify-center ">
+                                    <button class="bg-c2 py-2 text-white font-semibold w-full rounded-xl">Add To Cart</button>
+                                    <p>$ 6.99 /mo when you renew</p>
+                                </div>
+                                <div class="flex flex-col w-full gap-5">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7 Real-time Monitoring</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Regular Security Patching</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Object Cache Pro</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Domain ($9.99 value)</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Staging Environment</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7/365 Support</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Email</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Unlimited Bandwidth</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan px-10 py-10  w-80 border rounded-xl border-c2">
+                            <div class="flex flex-col gap-4 justify-center items-center">
+                                <div class="flex gap-4 justify-center items-center">
+                                    <img src="./images/plans/kt7incj5grlrx3qlp6.svg">
+                                    <span>Basic Plan</span>
+                                </div>
+                                <p>Everything need to your website</p>
+                                <div class="flex gap-4">
+                                    <span>US$6.53</span>
+                                    <span class="bg-cbg">Save 60%</span>
+                                </div>
+                                <div class="flex">
+                                    <sup>US$</sup>
+                                    <span>11.19</span>
+                                    <span>Save 60%</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 w-full justify-center ">
+                                    <button class="bg-c2 py-2 text-white font-semibold w-full rounded-xl">Add To Cart</button>
+                                    <p>$ 6.99 /mo when you renew</p>
+                                </div>
+                                <div class="flex flex-col w-full gap-5">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7 Real-time Monitoring</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Regular Security Patching</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Object Cache Pro</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Domain ($9.99 value)</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Staging Environment</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7/365 Support</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Email</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Unlimited Bandwidth</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="plan px-10 py-10  w-80 border rounded-xl border-c2">
+                            <div class="flex flex-col gap-4 justify-center items-center">
+                                <div class="flex gap-4 justify-center items-center">
+                                    <img src="./images/plans/kt7incj5grlrx3qlp6.svg">
+                                    <span>Basic Plan</span>
+                                </div>
+                                <p>Everything need to your website</p>
+                                <div class="flex gap-4">
+                                    <span>US$6.53</span>
+                                    <span class="bg-cbg">Save 60%</span>
+                                </div>
+                                <div class="flex">
+                                    <sup>US$</sup>
+                                    <span>11.19</span>
+                                    <span>Save 60%</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-2 w-full justify-center ">
+                                    <button class="bg-c2 py-2 text-white font-semibold w-full rounded-xl">Add To Cart</button>
+                                    <p>$ 6.99 /mo when you renew</p>
+                                </div>
+                                <div class="flex flex-col w-full gap-5">
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7 Real-time Monitoring</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Regular Security Patching</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Object Cache Pro</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Domain ($9.99 value)</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Staging Environment</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>24/7/365 Support</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Free Email</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+
+                                    <div class="flex justify-between items-center">
+                                        <span class="flex items-center gap-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13" fill="none"><path d="M18.1094 0.640625C18.6172 1.10938 18.6172 1.92969 18.1094 2.39844L8.10938 12.3984C7.64062 12.9062 6.82031 12.9062 6.35156 12.3984L1.35156 7.39844C0.84375 6.92969 0.84375 6.10938 1.35156 5.64062C1.82031 5.13281 2.64062 5.13281 3.10938 5.64062L7.21094 9.74219L16.3516 0.640625C16.8203 0.132812 17.6406 0.132812 18.1094 0.640625Z" fill="#00B67A"></path></svg>
+                                            <span>Unlimited Bandwidth</span>
+                                        </span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 hover:text-c2 cursor-pointer">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                          </svg>
+                                          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <div></div>
+                <div class="text-center py-5 border-t border-c4/40">
+                    <p class="text-c5 text-xl">&copy;  Copyright 2024. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
